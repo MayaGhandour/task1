@@ -1,0 +1,34 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+
+.dialog {
+  width: 80vw !important;
+}
+@media (min-width: 1320px) {
+  .dialog {
+    max-width: 70% !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .dialog {
+    max-width: 60%;
+  }
+}
